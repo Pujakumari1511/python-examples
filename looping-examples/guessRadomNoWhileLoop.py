@@ -1,10 +1,9 @@
 import random
 
 highest = 100
+answer = random.randint(1, highest)
 print("Please guess a number between 1 and {}: ".format(highest))
 guess =  0
-
-answer = random.randint(1, highest)
 
 while guess != answer:
     guess = int(input())
