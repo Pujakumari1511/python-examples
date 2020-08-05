@@ -187,7 +187,7 @@ dealer_count.grid(row=11, column=1, sticky='ws')
 # load cards
 cards = []
 load_images(cards)
-# :print(cards)
+# print(cards)
 # create a new deck of cards and shuffle them
 deck = list(cards) + list(cards)
 shuffle()
