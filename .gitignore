@@ -1,3 +1,7 @@
 # add files to ignore from git
 .idea/
 venv/
+
+
+# cache file for python executable for message-api
+message-api/src/main/__pycache__/*
